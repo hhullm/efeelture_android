@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+<!--     设置button四个角的弧度 -->
+<corners android:radius="10dp"/>
+    
+    <!--设置button里面的颜色<solid android:color="#E15050"/>-->
+    <solid android:color="#ed1941"/>
+<!--     设置button边框的颜色和宽度 -->
+<!--     <stroke android:color="@android:color/black" android:width="1dp"/> -->
+    <item
+        android:bottom="1dp"
+        android:left="1dp"
+        android:right="1dp"
+        android:top="1dp">
+        <shape>
+            <gradient
+                android:angle="90"
+                android:centerColor="#ef8000"
+                android:centerX="0.5"
+                android:centerY="0.5"
+                android:endColor="#f49500"
+                android:startColor="#eb6b00"
+                android:type="linear" />
+
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+            <!-- 应该是圆角 -->
+            <corners android:radius="6dp" />
+        </shape>
+    </item>
+    
+</shape>

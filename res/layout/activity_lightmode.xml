@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightbeijing"
+    android:columnCount="1"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/light_mode_imageButton5"
+        android:layout_width="25dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/retu" />
+
+    <ImageButton
+        android:id="@+id/light_mode_party"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/light_mode_mingxiang"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="47dp"
+        android:background="@drawable/party"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/light_mode_work"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/light_mode_mingxiang"
+        android:layout_marginTop="68dp"
+        android:layout_toRightOf="@+id/light_mode_imageButton5"
+        android:background="@drawable/work"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/light_mode_rest"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/light_mode_work"
+        android:layout_below="@+id/light_mode_work"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/rest"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/light_mode_mingxiang"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/light_mode_party"
+        android:layout_below="@+id/light_mode_imageButton5"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mingxiang1"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/morestyle"><!-- 弹窗的布局 -->
+    
+    <TextView
+        android:id="@+id/pop_begintalk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/popbuttonclick"
+        android:gravity="center"
+        android:text="开始聊天"
+        android:textColor="#000000"
+        android:textSize="15dip" />
+  
+    <TextView  
+            android:id="@+id/pop_deletefriend"  
+            android:layout_width="match_parent"  
+            android:layout_height="wrap_content"
+            android:textSize="15dip"  
+            android:textColor="#000000"
+             android:paddingTop="5dp"
+            android:background="@drawable/popbuttonclick"
+            android:text="删除好友"
+            android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/pop_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:paddingTop="5dp"
+        android:background="@drawable/popbuttonclick"
+        android:gravity="center"
+        android:text="用户动态"
+        android:textColor="#000000"
+        android:textSize="15dip" />
+      
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kbg"
+    android:theme="@style/Theme"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageButton
+            android:id="@+id/air_mode_backbutton"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/retu" />
+
+        <LinearLayout
+            android:id="@+id/frgmentmode"
+            android:layout_width="match_parent"
+            android:layout_height="207dp" > <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="30dp" >
+
+            <TextView
+                android:id="@+id/air_mode_textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:textSize="20dip"
+                android:text="增温" />
+
+            <ImageButton
+                android:id="@+id/air_temp_imageButton1"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:background="#00000000"
+                android:scaleType="fitXY"
+                android:src="@drawable/onoff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/air_mode_textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:textSize="20dip"
+                android:text="减温" />
+
+            <ImageButton
+                android:id="@+id/air_temp_imageButton2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitXY"
+                android:background="#00000000"
+                android:src="@drawable/onoff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/air_mode_textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#ffffff"
+                android:textSize="20dip"
+                android:text="自动" />
+
+            <ImageButton
+                android:id="@+id/air_temp_imageButton3"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:scaleType="fitXY"
+                android:background="#00000000"
+                android:src="@drawable/onoff" />
+        </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+            <ImageButton
+                android:id="@+id/air_mode_imageview03"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/kkkms1"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:id="@+id/air_mode_imageButton02"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/kkkwd2"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:id="@+id/air_mode_imageButton01"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="top"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/kkkfx2"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:id="@+id/air_mode_imageButton4"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/kkkfs2"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

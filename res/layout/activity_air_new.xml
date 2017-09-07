@@ -1,0 +1,249 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+<ScrollView 
+    	android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+		
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            
+            android:background="@drawable/lightbackground"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/airnew_imageView_bg"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:src="@drawable/back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="空调控制"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/airnew_textView_title2"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:text=" " />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/airnew_textView_dangqian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:clickable="true"
+                android:gravity="top"
+                android:text="当前模式"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/airnew_textView_xuanxiang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="制冷"
+                android:textColor="@color/white"
+                android:textSize="33sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                 >
+
+                <TextView
+                    android:id="@+id/airnew_textView1_zlms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:paddingLeft="30dp"
+                    android:text="制冷模式"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/airnew_imageView_zloff1"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:src="@drawable/airoff" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="#EBEBEB" >
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                 >
+
+                <TextView
+                    android:id="@+id/airnew_textView1_zrms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:paddingLeft="30dp"
+                    android:text="制热模式"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/airnew_imageView_zroff1"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:src="@drawable/airoff" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_gravity="center_vertical"
+                android:background="@color/gray" >
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                 >
+
+                
+
+                    <com.example.ef.PickerView
+                        android:id="@+id/minute_pv"
+                        android:layout_width="fill_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true" />
+                
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_gravity="center_vertical"
+                android:background="@color/gray" >
+            </View>
+
+            <LinearLayout
+                android:id="@+id/clickthislanearlayout"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                 >
+
+                <TextView
+                    android:id="@+id/airnew_textView1_cfsz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:paddingLeft="30dp"
+                    android:text="出风设置"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/airnew_imageView_xiala"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:src="@drawable/airpull" />
+            </LinearLayout>
+            <LinearLayout
+               android:id="@+id/linearLayout_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 >
+					<include layout="@layout/wind_speed"></include>
+                
+            </LinearLayout>
+            
+            
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="#EBEBEB" >
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                 >
+
+                <TextView
+                    android:id="@+id/airnew_textView1_csms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:paddingLeft="30dp"
+                    android:text="抽湿模式"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/airnew_imageView_csoff2"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:src="@drawable/airoff" />
+            </LinearLayout>
+        </LinearLayout>
+        
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

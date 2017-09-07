@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="#EBEBEB" >
+            </View>
+    <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                 >
+
+                <TextView
+                    android:id="@+id/wind_textView1_sdfx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:paddingLeft="30dp"
+                    android:text="手动风向"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/wind_imageView_off1"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:src="@drawable/airoff" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center_vertical"
+                android:background="#EBEBEB" >
+            </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                >
+
+                <ImageView
+                    android:id="@+id/wind_imageView_1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@drawable/windup" />
+
+                <ImageView
+                    android:id="@+id/wind_imageView_2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@drawable/winddown1" />
+
+                <ImageView
+                    android:id="@+id/wind_imageView_3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@drawable/windleft1" />
+
+                <ImageView
+                    android:id="@+id/wind_imageView_4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:src="@drawable/windright1" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center_vertical"
+                android:background="#EBEBEB" >
+            </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                 >
+
+                <TextView
+                    android:id="@+id/wind_textView1_zdfx"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:paddingLeft="30dp"
+                    android:text="自动风向"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/wind_imageView_off2"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:src="@drawable/airoff" />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="#EBEBEB" >
+            </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                 >
+
+                <TextView
+                    android:id="@+id/wind_textView1_sdfs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:paddingLeft="30dp"
+                    android:text="手动风速"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/wind_imageView_off3"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:src="@drawable/airoff" />
+
+                <ImageView
+                    android:id="@+id/wind_imageView_level"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="30dp"
+                    android:clickable="true"
+                    android:src="@drawable/windlevel1" />
+
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_gravity="center_vertical"
+                android:background="#EBEBEB" >
+            </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                 >
+
+                <TextView
+                    android:id="@+id/wind_textView1_zdfs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:clickable="true"
+                    android:paddingLeft="30dp"
+                    android:text="自动风速"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/wind_imageView_off4"
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:clickable="true"
+                    android:src="@drawable/airoff" />
+            </LinearLayout>
+
+</LinearLayout>

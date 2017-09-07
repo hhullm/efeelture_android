@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/lightbeijing" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/light_contrl_imageButton9"
+                android:layout_width="25dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/retu" />
+
+            <ImageButton
+                android:id="@+id/light_contrl_imageButton1"
+                android:layout_width="40dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/lightcontrl"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/light_contrl_textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/white"
+                android:layout_marginTop="60dp"
+                android:textSize="16sp"
+                android:text="手动调节" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center" >
+
+                <ImageButton
+                    android:id="@+id/light_contrl_imageButton2"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/one"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:id="@+id/light_contrl_imageButton3"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/two"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:id="@+id/light_contrl_imageButton4"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/three"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:id="@+id/light_contrl_imageButton5"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/four"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:id="@+id/light_contrl_imageButton6"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/five"
+                    android:scaleType="fitXY" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/light_contrl_textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="60dp"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:text="自动选项" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginBottom="60dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center" >
+
+                <ImageButton
+                    android:id="@+id/light_contrl_imageButton7"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/mod"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:id="@+id/light_contrl_imageButton8"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/scen" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
